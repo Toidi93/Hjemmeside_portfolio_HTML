@@ -1,3 +1,16 @@
 body {
     background-image: url(https://images.unsplash.com/photo-1517495306984-f84210f9daa8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1974&q=80);
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+h1 {
+    font-size: 50px;
+    margin-bottom: 0%;
+}
+h4 {
+    margin-top: 0%
+}
