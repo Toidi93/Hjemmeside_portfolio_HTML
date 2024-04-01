@@ -1,44 +1,54 @@
 body {
-    background-image: url(https://cdn.pixabay.com/photo/2019/01/02/19/29/background-3909535_960_720.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+  background-image: url(./backgroundrocks.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  padding: 1rem;
 }
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
 h1 {
-    font-size: 50px;
-    margin-bottom: 0%;
+  font-size: 50px;
+  margin-bottom: 0%;
 }
 h4 {
-    margin-top: 0%
+  margin-top: 0%;
 }
 img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 .text1 {
-    max-width: 60ch;
+  max-width: 60ch;
 }
 
 /* 
 Jeg forsøger at lave en flexbox herunder til at sætte billede og tekst op ved siden af hinanden.
 */
 .flexbox-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .flexbox-item {
-    margin: 10px;
-    border: 3px;
+  margin: 10px;
+  border: 3px;
 }
 .flexbox-item-1 {
-    max-height: 200px;
-    max-width: 200px;
+  max-height: 200px;
+  max-width: 200px;
 }
 .flexbox-item-2 {
-    min-height: 200px;
+  min-height: 200px;
 }
