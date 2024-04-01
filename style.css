@@ -20,6 +20,9 @@ h4 {
 img {
     border-radius: 50%;
 }
+.text1 {
+    max-width: 60ch;
+}
 
 /* 
 Jeg forsøger at lave en flexbox herunder til at sætte billede og tekst op ved siden af hinanden.
@@ -33,6 +36,8 @@ Jeg forsøger at lave en flexbox herunder til at sætte billede og tekst op ved 
     border: 3px;
 }
 .flexbox-item-1 {
+    max-height: 200px;
+    max-width: 200px;
 }
 .flexbox-item-2 {
     min-height: 200px;
